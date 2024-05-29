@@ -466,11 +466,11 @@ ALTER TABLE ONLY public.star
 
 
 --
--- Name: galaxy unique_name; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+-- Name: galaxy galaxy_name_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
 --
 
 ALTER TABLE ONLY public.galaxy
-    ADD CONSTRAINT unique_name UNIQUE (name);
+    ADD CONSTRAINT galaxy_name_key UNIQUE (name);
 
 
 --
